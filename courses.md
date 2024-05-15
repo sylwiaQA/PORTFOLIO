@@ -1,15 +1,15 @@
 # Courses
 
+![Courses Page Image](images/courses/courses.webp)
+
 ## Contents
 
-1. 📚 [ISTQB® CTFL - Certified Tester Foundation Level](#istqb-ctfl-certified-tester-foundation-level)
-2. 📊 [Rafał Podraza – JIRA Foundation Course](#rafał-podraza-jira-foundation-course)
-3. 🛠️ [Rafał Podraza – Practical Software Testing Course](#rafał-podraza-practical-software-testing-course)
-4. 📬 [Rafał Podraza – Postman - REST API Testing](#rafał-podraza-postman---rest-api-testing)
-5. 💡 [Rafał Podraza – JavaScript Foundation](#rafał-podraza-javascript-foundation)
-6. 🗃️ [Rafał Podraza – SQL Foundation – MySQL](#rafał-podraza-sql-foundation--mysql)
-
-![Courses Page Image](images/courses/courses.webp)
+1. 📚 [ISTQB® CTFL - Certified Tester Foundation Level](#istqb-ctfl---certified-tester-foundation-level)
+2. 📊 [Rafał Podraza – JIRA Foundation Course](#rafał-podraza--jira-foundation-course)
+3. 🛠️ [Rafał Podraza – Practical Software Testing Course](#rafał-podraza--practical-software-testing-course)
+4. 📬 [Rafał Podraza – Postman - REST API Testing](#rafał-podraza--postman---rest-api-testing)
+5. 💡 [Rafał Podraza – JavaScript Foundation](#rafał-podraza--javascript-foundation)
+6. 🗃️ [Rafał Podraza – SQL Foundation – MySQL](#rafał-podraza--sql-foundation--mysql)
 
 ## ISTQB® CTFL - Certified Tester Foundation Level
 
