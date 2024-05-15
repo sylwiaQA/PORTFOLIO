@@ -19,16 +19,26 @@ So, **buckle up**, because you're about to **witness** how someone with **little
 ![My WebP Image](images/general/testerWork.webp)
 
 
-## Tech skills
-- Application testing
-- Test plan creation
-- Test case and scenario building
-- Bug reporting
-- Databases basic experience: MS SQL, MySql, PostgreSQL
-- HTML/CSS foundation
-- JavaScript foundation
-- CI/CD basics: GitHub, Jenkins
-- Markdown knowledge
+## Tech Skills
+
+📱 Application Testing
+
+📝 Test Plan Creation
+
+📋 Test Case and Scenario Building
+
+🐞 Bug Reporting
+
+💽 Databases: MS SQL, MySQL, PostgreSQL
+
+🌐 HTML/CSS Foundation
+
+💻 JavaScript Foundation
+
+🔄 CI/CD Basics: GitHub, Jenkins
+
+📄 Markdown Knowledge
+
 
 
 ## Soft Skills
@@ -71,14 +81,23 @@ So, **buckle up**, because you're about to **witness** how someone with **little
 
 
 ## Tools
-- Jira, 
-- Xray, TestFLO, Zephyr
-- DevTools
-- Postman / REST API
-- Trello
-- Git/GitHub
-- Visual Studio Code
-- JMeter
+
+🔧 Jira / Confluence
+
+🔬 Xray, TestFLO, Zephyr
+
+🛠️ DevTools 
+
+📬 Postman / REST API
+
+📋 Trello
+
+🐙 Git/GitHub
+
+💻 Visual Studio Code
+
+⚙️ JMeter
+
 
 ## Languages
 
@@ -89,12 +108,13 @@ So, **buckle up**, because you're about to **witness** how someone with **little
 🇪🇸 Spanish – B1
 
 
-
 ## Contents
-1. [Courses](courses.md)
-1. [SQL Learning](sql_learning.md)
-1. [JavaScript](javascript.md)
-1. [Test Cases](test_cases.md)
+
+1️⃣ [Courses](courses.md)
+2️⃣ [SQL Learning](sql_learning.md)
+3️⃣ [JavaScript](javascript.md)
+4️⃣ [Test Cases](test_cases.md)
+
 
 ## My Links
 [LinkedIn Profile](https://www.linkedin.com/in/sylwia-albin-dudziak/)
