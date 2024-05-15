@@ -16,7 +16,7 @@ With each new **concept** I grasp and every **skill** I acquire, I'm driven by a
 So, **buckle up**, because you're about to **witness** how someone with **little to no tech background** is making **waves** in the **tech world**. Trust me, it's going to be quite the **adventure**!
 
 
-![My WebP Image](images/testerWork.webp)
+![My WebP Image](images/general/testerWork.webp)
 
 
 ## Tech skills
@@ -65,4 +65,4 @@ So, **buckle up**, because you're about to **witness** how someone with **little
 
 ## Thank you!
 
-![My WebP Image](images/thankYou.webp)
+![My WebP Image](images/general/thankYou.webp)

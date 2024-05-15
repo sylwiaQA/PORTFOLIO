@@ -1,3 +1,3 @@
 # JavaScript
 
-(Informacje o nauce JavaScript, zasoby, notatki, przykłady kodu, itp.)
+![My WebP Image](images/js/javascript.webp)
