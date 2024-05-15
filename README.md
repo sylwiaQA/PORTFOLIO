@@ -1,4 +1,4 @@
-# PSOFTWARE TESTER PORTFOLIO - Sylwia Albin-Dudziak
+# SOFTWARE TESTER PORTFOLIO - Sylwia Albin-Dudziak
 
 ## About Me
 # Introduction
@@ -15,15 +15,41 @@ With each new **concept** I grasp and every **skill** I acquire, I'm driven by a
 
 So, **buckle up**, because you're about to **witness** how someone with **little to no tech background** is making **waves** in the **tech world**. Trust me, it's going to be quite the **adventure**!
 
-# Tech skills
+## Tech skills
+- Application testing
+- Test plan creation
+- Test case and scenario building
+- Bug reporting
+- MySQL/MS SQL foundation
+- HTML/CSS foundation
+- JavaScript foundation
 
-# Soft skills
+## Soft skills
+- Attention to detail
+- Logical thinking and problem-solving
+- Well-developed communication skills
+- Exceptional time management
+- Adaptability
+- Continuous learning
+- Client focus
+
+## Tools
+- Jira, Xray, TestFLO
+- DevTools
+- Postman / REST API
+- Trello
+- Git/GitHub
+- Visual Studio Code
+- sJMeter
+
+## Languages
+- Polish – native
+- English – B2
+- Spanish – B1
 
 
 ## Contents
 1. [Courses](courses.md)
-1. [Tools](tools.md)
-
 1. [SQL Learning](sql_learning.md)
 1. [JavaScript](javascript.md)
 1. [Test Cases](test_cases.md)
