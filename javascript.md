@@ -1,3 +1,3 @@
 # JavaScript
 
-![My WebP Image](images/js/javascript.webp)
+![JS Page Image](images/js/javascript.webp)

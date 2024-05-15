@@ -1,4 +1,4 @@
 # Test Cases
 
-![My WebP Image](images/testcases/testcase.webp)
+![Test Cases Page Image](images/testcases/testcase.webp)
 

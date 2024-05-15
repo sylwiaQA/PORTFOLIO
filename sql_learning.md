@@ -1,4 +1,4 @@
 # SQL Learning
 
 
-![My WebP Image](images/sql/sql.webp)
+![SQL Page Image](images/sql/sql.webp)

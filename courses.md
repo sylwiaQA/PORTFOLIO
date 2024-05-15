@@ -1,5 +1,8 @@
 # Courses
 
+![Courses Page Image](images/courses/courses.webp)
+
+
 ## ISTQB® CTFL - Certified Tester Foundation Level
 
 **Description**: The ISTQB® CTFL course provides a comprehensive foundation in software testing principles and practices. It covers various testing techniques, methodologies, and terminologies essential for a career in software testing.
