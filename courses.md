@@ -1,7 +1,15 @@
 # Courses
 
-![Courses Page Image](images/courses/courses.webp)
+## Contents
 
+1. 📚 [ISTQB® CTFL - Certified Tester Foundation Level](#istqb-ctfl-certified-tester-foundation-level)
+2. 📊 [Rafał Podraza – JIRA Foundation Course](#rafał-podraza-jira-foundation-course)
+3. 🛠️ [Rafał Podraza – Practical Software Testing Course](#rafał-podraza-practical-software-testing-course)
+4. 📬 [Rafał Podraza – Postman - REST API Testing](#rafał-podraza-postman---rest-api-testing)
+5. 💡 [Rafał Podraza – JavaScript Foundation](#rafał-podraza-javascript-foundation)
+6. 🗃️ [Rafał Podraza – SQL Foundation – MySQL](#rafał-podraza-sql-foundation--mysql)
+
+![Courses Page Image](images/courses/courses.webp)
 
 ## ISTQB® CTFL - Certified Tester Foundation Level
 
@@ -48,4 +56,3 @@
 **Description**: The SQL Foundation - MySQL course by Rafał Podraza introduces the fundamentals of SQL (Structured Query Language) using MySQL as the database management system. It covers topics such as database design, querying, and data manipulation.
 
 **What I Learned**: Through this course, I acquired a solid understanding of SQL and database management using MySQL. I learned how to write SQL queries to retrieve and manipulate data, perform database operations, and optimize database performance.
-
