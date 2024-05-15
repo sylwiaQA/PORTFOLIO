@@ -24,12 +24,13 @@ So, **buckle up**, because you're about to **witness** how someone with **little
 - Test plan creation
 - Test case and scenario building
 - Bug reporting
-- MySQL/MS SQL foundation
+- Databases basic experience: MS SQL, MySql, PostgreSQL
 - HTML/CSS foundation
 - JavaScript foundation
+- CI/CD basics: GitHub, Jenkins
 
 ## Soft skills
-- Attention to detail
+- Attention to details
 - Logical thinking and problem-solving
 - Well-developed communication skills
 - Exceptional time management
@@ -38,13 +39,14 @@ So, **buckle up**, because you're about to **witness** how someone with **little
 - Client focus
 
 ## Tools
-- Jira, Xray, TestFLO
+- Jira, 
+- Xray, TestFLO, Zephyr
 - DevTools
 - Postman / REST API
 - Trello
 - Git/GitHub
 - Visual Studio Code
-- sJMeter
+- JMeter
 
 ## Languages
 - Polish – native
