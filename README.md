@@ -28,15 +28,47 @@ So, **buckle up**, because you're about to **witness** how someone with **little
 - HTML/CSS foundation
 - JavaScript foundation
 - CI/CD basics: GitHub, Jenkins
+- Markdown knowledge
 
-## Soft skills
-- Attention to details
-- Logical thinking and problem-solving
-- Well-developed communication skills
-- Exceptional time management
-- Adaptability
-- Continuous learning
-- Client focus
+
+## Soft Skills
+
+### Communication
+🗣️ Effective verbal and written communication skills
+
+### Teamwork
+🤝 Ability to collaborate and work effectively in team environments
+
+### Adaptability
+🔄 Flexibility to adapt to changing situations and requirements
+
+### Problem-solving
+🔍 Strong analytical and problem-solving skills
+
+### Time Management
+⏰ Excellent time management and prioritization abilities
+
+### Leadership
+👨‍💼 Demonstrated leadership qualities and the ability to motivate others
+
+### Creativity
+🎨 Innovative thinking and creative problem-solving approach
+
+### Emotional Intelligence
+😊 High emotional intelligence and the ability to empathize with others
+
+### Critical Thinking
+🤔 Strong critical thinking skills and the ability to evaluate situations objectively
+
+### Resilience
+💪 Capacity to bounce back from setbacks and adapt to challenges
+
+### Attention to Detail
+🔎 Meticulous attention to detail and accuracy in tasks
+
+### Conflict Resolution
+⚖️ Proficiency in resolving conflicts and finding mutually beneficial solutions
+
 
 ## Tools
 - Jira, 
@@ -49,9 +81,13 @@ So, **buckle up**, because you're about to **witness** how someone with **little
 - JMeter
 
 ## Languages
-- Polish – native
-- English – B2
-- Spanish – B1
+
+🇵🇱 Polish – native
+
+🇬🇧 English – B2
+
+🇪🇸 Spanish – B1
+
 
 
 ## Contents
