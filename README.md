@@ -15,6 +15,10 @@ With each new **concept** I grasp and every **skill** I acquire, I'm driven by a
 
 So, **buckle up**, because you're about to **witness** how someone with **little to no tech background** is making **waves** in the **tech world**. Trust me, it's going to be quite the **adventure**!
 
+
+![My WebP Image](images/testerWork.webp)
+
+
 ## Tech skills
 - Application testing
 - Test plan creation
@@ -57,3 +61,6 @@ So, **buckle up**, because you're about to **witness** how someone with **little
 ## My Links
 [LinkedIn Profile](https://www.linkedin.com/in/sylwia-albin-dudziak/)
 
+## Thank you!
+
+![My WebP Image](images/thankYou.webp)
