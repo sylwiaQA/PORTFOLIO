@@ -1,7 +1,8 @@
-# SOFTWARE TESTER PORTFOLIO - Sylwia Albin-Dudziak
+# SOFTWARE TESTER PORTFOLIO - Sylwia Albin-Dudziak 🚀
 
-## About Me
-# Introduction
+## About Me 🌟
+# Introduction 🔍
+
 
 Hey there! I'm **Sylwia**, and I want to take you on a **unique journey** through my **unconventional entry** into the world of **technology**.
 
@@ -111,8 +112,11 @@ So, **buckle up**, because you're about to **witness** how someone with **little
 ## Contents
 
 1️⃣ [Courses](courses.md)
+
 2️⃣ [SQL Learning](sql_learning.md)
+
 3️⃣ [JavaScript](javascript.md)
+
 4️⃣ [Test Cases](test_cases.md)
 
 
