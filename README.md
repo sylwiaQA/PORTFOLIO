@@ -109,6 +109,10 @@ So, **buckle up**, because you're about to **witness** how someone with **little
 🇪🇸 Spanish – B1
 
 
+## SQL
+
+
+
 ## Contents
 
 1️⃣ [Courses](courses.md)
