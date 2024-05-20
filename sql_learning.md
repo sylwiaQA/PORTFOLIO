@@ -148,5 +148,53 @@ SELECT Country FROM customers;
 ```
 ![SQL Page Image](images/sql/sqladv6.png)
 
-7. 
+7. Z tabeli payment wypisz wszystkie wiersze, które odpowiadają maksymalnej płatności z tej tabeli 
 
+```sql
+SELECT * FROM payment 
+	WHERE amount = (SELECT MAX(amount)FROM payment)
+```
+![SQL Page Image](images/sql/sqladv7.png)
+
+8. Wybierz identyfikator klienta, jego pełne imię i nazwisko ( wyświetl w jednej kolumnie) oraz sumę jego płatności. Skorzystaj z połącznia potrzebnych tabeli. Wykorzystaj definicję pierwszego CTE. 
+
+```sql
+WITH payments AS (
+SELECT customer_id, SUM(amount)AS customer_amount
+	FROM payment
+GROUP BY customer_id
+	)
+SELECT payments.customer_id,
+	CONCAT(customer.first_name,' ',customer.last_name),
+	payments.customer_amount
+	FROM payments
+JOIN customer ON payments.customer_id=customer.customer_id
+ORDER BY payments.customer_id
+```
+![SQL Page Image](images/sql/sqladv8.png)
+
+9. Poprzednie zadanie można rozpisać bez użycia CTE korzystając z JOIN. Wynik zapytania będzie ten sam, obie metody różnią się podejściem. CTE zapewnia optymalizację i lepszą czytelność i organizację kodu. 
+
+```sql
+SELECT p.customer_id, SUM(amount)AS customer_amount,CONCAT(c.first_name,' ',c.last_name)AS name
+	FROM payment p
+INNER JOIN customer c ON p.customer_id=c.customer_id
+GROUP BY p.customer_id, name
+ORDER BY p.customer_id
+```
+![SQL Page Image](images/sql/sqladv9.png)
+
+10. Używając CTE to tabeli customer dołącz adresy, które zawierają kod pocztowy. 
+
+```sql
+WITH adresy AS (
+	SELECT address_id
+		,address
+		,postal_code
+	FROM address
+	WHERE postal_code IS NOT NULL
+) SELECT adresy.*,customer.*
+FROM customer  
+LEFT JOIN adresy ON customer.address_id=adresy.address_id
+```
+![SQL Page Image](images/sql/sqladv10.png)
