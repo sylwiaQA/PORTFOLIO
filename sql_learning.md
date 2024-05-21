@@ -221,3 +221,29 @@ JOIN customer c ON p.customer_id=c.customer_id
 JOIN rentals r ON c.customer_id=r.customer_id
 ```
 ![SQL Page Image](images/sql/sqladv11.png)
+
+12. Zsumuj płatności dla pracownika o Id=1 i o Id=2. Wyświetl pogrupowane po dacie. Chcemy by wyniki były wyświetlone w kolumnach, nie w wierszach. Datę możesz obciąć do dnia miesiąca.
+
+```sql
+SELECT  
+	payment_date,
+	DATE_TRUNC ('day', payment_date)AS date,
+	EXTRACT(month FROM payment_date)AS month_from_payment_date,
+	SUM(CASE WHEN staff_id=1 THEN amount ELSE 0 END)AS amount_staff_1,
+	SUM(CASE WHEN staff_id=2 THEN amount ELSE 0 END)AS amount_staff_2
+	FROM payment 
+GROUP BY payment_date 
+```
+![SQL Page Image](images/sql/sqladv12.png)
+
+13. Używając tabeli customer stwórz takie podsumowanie liczby klientów aktywnych i nieaktywnych (kolumna active).
+
+![SQL Page Image](images/sql/sqladv13.png)
+
+```sql
+SELECT store_id,
+	SUM(CASE WHEN active=1 THEN 1 ELSE 0 END) AS klient_aktywny,
+	SUM(CASE WHEN active=0 THEN 1 ELSE 0 END) AS klient_nieaktywny
+	FROM customer 
+GROUP BY store_id
+```
