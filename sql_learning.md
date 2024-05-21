@@ -247,3 +247,51 @@ SELECT store_id,
 	FROM customer 
 GROUP BY store_id
 ```
+14.  Wybierz imię i nazwisko z tabeli `actor`, a następnie dodaj do wyników imię i nazwisko z tabeli `customer`, eliminując duplikaty.
+
+```sql
+SELECT first_name,last_name
+FROM actor
+UNION 
+SELECT first_name,last_name
+FROM customer;
+```
+![SQL Page Image](images/sql/sqladv14.png)
+
+15.  Wybierz imię i nazwisko, które występują zarówno w tabeli `actor`, jak i w tabeli `customer`.
+
+```sql
+SELECT first_name, last_name
+FROM actor
+INTERSECT 
+SELECT first_name, last_name
+FROM customer 
+```
+![SQL Page Image](images/sql/sqladv15.png)
+
+16.  Wybierz imię i nazwisko z tabeli `actor`, które nie występują w tabeli `customer`.
+
+```sql
+SELECT first_name, last_name
+FROM actor
+EXCEPT 
+SELECT first_name, last_name
+FROM customer 
+```
+![SQL Page Image](images/sql/sqladv16.png)
+
+17. Z tabeli klientów wybierz tylko takie imiona i nazwiska, które nie są imionami i nazwiskami aktorów. 
+
+```sql
+SELECT first_name, last_name
+	FROM Customer 
+EXCEPT
+SELECT first_name,last_name
+FROM actor
+```
+![SQL Page Image](images/sql/sqladv17.png)
+
+18. 
+19. 
+20. 
+21. 
