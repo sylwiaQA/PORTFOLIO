@@ -198,3 +198,26 @@ FROM customer
 LEFT JOIN adresy ON customer.address_id=adresy.address_id
 ```
 ![SQL Page Image](images/sql/sqladv10.png)
+
+11. Wybierz identyfikator klienta, imię i nazwisko, sumę jego płatności i ilość wypożyczeń. 
+
+```sql
+WITH payments AS (
+	SELECT customer_id, SUM(amount)AS customer_amount
+	FROM payment
+	GROUP BY customer_id
+), 
+rentals AS(
+	SELECT customer_id, COUNT(*)AS rentals_amount
+	FROM rental
+	GROUP BY customer_id
+) 
+SELECT p.customer_id, 
+	CONCAT(c.first_name,' ',c.last_name)AS name,
+	p.customer_amount,
+	r.rentals_amount
+FROM payments p 
+JOIN customer c ON p.customer_id=c.customer_id
+JOIN rentals r ON c.customer_id=r.customer_id
+```
+![SQL Page Image](images/sql/sqladv11.png)
