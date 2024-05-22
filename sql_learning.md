@@ -291,7 +291,65 @@ FROM actor
 ```
 ![SQL Page Image](images/sql/sqladv17.png)
 
-18. 
-19. 
-20. 
-21. 
+18. Stwórz zapytanie, które wybiera payment_id, payment_date oraz poszczególne elementy daty z payment_date (rok,miesiąc,dzień i godzinę)
+
+```sql
+SELECT payment_id, payment_date,
+	EXTRACT (year FROM payment_date)AS year,
+	EXTRACT (month FROM payment_date)AS month,
+	EXTRACT (day FROM payment_date)AS day,
+	EXTRACT (hour FROM payment_date)AS hour
+	FROM payment ;
+```
+![SQL Page Image](images/sql/sqladv18.png)
+
+19.  Stwórz zapytanie, które wybiera wszystkie kolumny z tabeli payment, gdzie rok płatności to '2007'.
+
+```sql
+SELECT * FROM payment 
+	WHERE
+	EXTRACT(year FROM payment_date) = '2007'
+```
+![SQL Page Image](images/sql/sqladv19.png)
+
+20. Stwórz zapytanie, które wybiera payment_datę i zaokrągla datę do najbliższego miesiąca, dnia i minuty.
+
+```sql
+SELECT payment_date, payment_id,
+	DATE_TRUNC('month',payment_date)AS month,
+	DATE_TRUNC('day',payment_date)AS day,
+	DATE_TRUNC('minute',payment_date)AS minute
+	FROM pay
+```
+![SQL Page Image](images/sql/sqladv20.png)
+
+21.  Zgrupuj płatności według miesiąca i zlicz je.
+
+```sql
+SELECT COUNT(*)AS payments_number,
+	DATE_TRUNC('month',payment_date)AS month
+	FROM payment
+		GROUP BY month
+		ORDER BY month
+```
+![SQL Page Image](images/sql/sqladv21.png)
+
+22. Stwórz zapytanie, które oblicza różnicę między bieżącą datą a datą płatności w dniach.
+
+```sql
+SELECT 
+	current_date,
+	payment_date,
+	current_date - payment_date AS difference,
+	EXTRACT(days FROM current_date - payment_date)AS days_difference 
+	FROM payment
+```
+![SQL Page Image](images/sql/sqladv22.png)
+
+23. Stwórz zapytanie, które wybiera payment_date i formatuje je w formacie 'YYYY-MM-DD'.
+
+```sql
+SELECT payment_date,
+		TO_CHAR(payment_date,'YYYY-MM-DD')AS date_formatted
+		FROM payment;
+```
