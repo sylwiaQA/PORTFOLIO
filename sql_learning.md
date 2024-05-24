@@ -353,3 +353,53 @@ SELECT payment_date,
 		TO_CHAR(payment_date,'YYYY-MM-DD')AS date_formatted
 		FROM payment;
 ```
+24.  Wyświetl wydatki uzytkownika filip@email.pl które pochodzą z paragonu. Uzyj w warunku WHERE adres email a nie ID.
+Wyświetl równiez informacje z paragonu dodanego do wydatku. Oczekiwana struktura:
+UserId, Email, Expense.Title, Expense.TotalAmount, Receipt.Id
+
+```sql
+ SELECT u.Id AS UserId,u.Email,e.Title,e.TotalAmount,e.receiptid 
+   FRom Expenses e 
+   JOIN Users u ON e.UserID=u.Id
+   where u.email='filip@email.pl' AND e.ReceiptId IS NOT NUll 
+```
+![SQL Page Image](images/sql/sqladv24.png)
+
+25.  Podlicz i wypisz uzytkowników od tych którzy wykonali najwięcej odczytów paragonów do tych którzy 
+wykonali najmniej. Oczekiwane dane: UserId, Number of receipts.
+
+```sql
+ SELECT u.Id AS UserID, COUNT(r.Id) AS Number_od_receipts
+  FROM Users u 
+  LEFT JOIN Receipts r ON u.Id=r.UserId
+  GROUP BY u.Id
+  ORDER By COUNT(r.Id)
+```
+![SQL Page Image](images/sql/sqladv25.png)
+
+26. Wypisz sumę wydatków per kategoria.Wykonaj RIGHT JOIN.Oczekiwane dane Suma, Nazwa kategorii. 
+
+```sql
+ SELECT SUM(totalamount)AS TotalAmount, c.Name
+ FROM Expenses e 
+ RIGHT JOIN Categories c ON e.CategoryId=c.ID
+ GROUP By c.Name
+```
+![SQL Page Image](images/sql/sqladv26.png)
+
+27. Wypisz wszystkie wydatki z tabeli Expenses oraz połącz dane z tabeli Users oraz Receipts:
+Oczekiwane dane: Users.Id, Users.Email, Expenses.Title, Expenses.TotalAmount, Receipts.Id, Receipts.Date
+UWAGA: Wyświet wszystkie wydatki, nawet jezeli nie pochodzą ze zdjęcia paragonu
+
+```sql
+SELECT u.id AS UserID, u.email, e.title, e.totalAmount, r.Id AS receiptid, r.Date
+      FROM Expenses e 
+      JOIN Users u ON e.UserID=u.Id
+      LEFT JOIN Receipts r ON u.Id=r.UserId
+```
+![SQL Page Image](images/sql/sqladv27.png)
+
+
+
+
+
