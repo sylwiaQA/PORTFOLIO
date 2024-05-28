@@ -80,22 +80,24 @@ Types of tests included in the test plan
      2. **Interface Intuitiveness**
        - Assessment of whether new users can intuitively navigate the site.
        - Testing whether messages and instructions are clear and understandable.
-       
-- **Compatibility Testing**
-   - **Description**: These tests check if the system works correctly on different devices, browsers, and operating systems.
-   - **Example**: Verifying that the online store displays and functions correctly on various browsers (Chrome, Firefox, Safari) and devices (computers, tablets, smartphones).
+
+- **Compatibility Testing** - These tests check if the system works correctly on different devices, browsers, and operating systems.
+    - Testing the website on different browsers (Chrome, Firefox, Safari, Edge).
+    - Testing on different operating systems (Windows, macOS, Linux).
+    - Checking the website's functionality on various screen resolutions.
 
 - **Regression Testing**
    - **Description**: These tests aim to detect if new changes in the code have introduced errors in existing functionality.
    - **Example**: After adding a new product filtering feature, testing the entire purchasing process to ensure it works correctly.
 
-- **Performance Testing**
-   - **Description**: These tests evaluate how the system behaves under load.
-   - **Example**: Checking how the online store handles 1000 concurrent users making purchases.
+- **Performance Testing** - These tests evaluate how the system behaves under load.
+    - Checking page loading times.
+    - Testing the performance of the website under heavy load (e.g., simulating multiple users).
 
-- **Security Testing**
-   - **Description**: These tests identify potential security vulnerabilities in the system.
-   - **Example**: Conducting penetration tests to detect vulnerabilities such as SQL Injection or Cross-Site Scripting (XSS).
+- **Security Testing** - These tests identify potential security vulnerabilities in the system.
+     - Verifying if user data is securely transmitted (e.g., via HTTPS).
+    - Testing for vulnerabilities to common attacks (e.g., SQL Injection, XSS).
+    - Testing privacy policy and data security measures.
 
 ## Subject of Testing
 
