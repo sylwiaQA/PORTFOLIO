@@ -86,9 +86,8 @@ Types of tests included in the test plan
     - Testing on different operating systems (Windows, macOS, Linux).
     - Checking the website's functionality on various screen resolutions.
 
-- **Regression Testing**
-   - **Description**: These tests aim to detect if new changes in the code have introduced errors in existing functionality.
-   - **Example**: After adding a new product filtering feature, testing the entire purchasing process to ensure it works correctly.
+- **Regression Testing** -  These tests aim to detect if new changes in the code have introduced errors in existing functionality.
+   - After adding a new product filtering feature, testing the entire purchasing process to ensure it works correctly.
 
 - **Performance Testing** - These tests evaluate how the system behaves under load.
     - Checking page loading times.
@@ -106,11 +105,38 @@ https://rpstore.pl along with all its functionalities.
 
 ## Pass Criteria
 
+1. **Performance Testing**
+   - Server response time must not exceed 500 ms.
+   - The software must withstand a load of 1000 users simultaneously.
+
+2. **Functional Testing**
+   - Acceptance criteria are aligned with the current implementation of the online store.
+
+3. **Automated Testing**
+   - All test cases have been automated.
+   - Tests have been integrated with the CI/CD tool - Jenkins.
+
 ## Fail Criteria
+
+Kryteria niezaliczenia
+
+1. **Performance Testing**
+   - Server response time exceeds 500 ms.
+
+2. **Functional Testing**
+   - Implemented functionalities are not compliant with requirements.
 
 ## Entry Criteria
 
+- Running Test Environment
+- The test environment must closely resemble the production environment.
+- Access to a device with iOS system.
+
 ## Exit Criteria
+
+- All test cases executed.
+- All types and levels of tests included in the test plan have been completed.
+- All defects have been rectified.
 
 ## List of Functionalities to be Tested
 
