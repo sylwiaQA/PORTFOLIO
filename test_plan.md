@@ -92,19 +92,10 @@ Types of tests included in the test plan
    - **Description**: These tests identify potential security vulnerabilities in the system.
    - **Example**: Conducting penetration tests to detect vulnerabilities such as SQL Injection or Cross-Site Scripting (XSS).
 
-
-
-
-
-
-
-
-
-
-
-
-
 ## Subject of Testing
+
+The subject of the tests is an online store available at the following address:
+https://rpstore.pl along with all its functionalities.
 
 ## Pass Criteria
 
