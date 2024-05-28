@@ -80,15 +80,7 @@ Types of tests included in the test plan
      2. **Interface Intuitiveness**
        - Assessment of whether new users can intuitively navigate the site.
        - Testing whether messages and instructions are clear and understandable.
-
-
-
-
-
-
-
-
-
+       
 - **Compatibility Testing**
    - **Description**: These tests check if the system works correctly on different devices, browsers, and operating systems.
    - **Example**: Verifying that the online store displays and functions correctly on various browsers (Chrome, Firefox, Safari) and devices (computers, tablets, smartphones).
