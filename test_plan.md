@@ -72,9 +72,7 @@ Types of tests included in the test plan
 
 - **Automated Testing** - Implementation of automated tests for key system functionalities according to provided test cases.
 
-- **Usability Testing**
-   - **Description**: These tests assess how easy it is for users to interact with the system.
-
+- **Usability Testing** - These tests assess how easy it is for users to interact with the system.
      1. **Accessibility and Readability**
        - Evaluation of text readability on various devices.
        - Checking the responsiveness of the website (whether the site is readable on mobile devices).
