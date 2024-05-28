@@ -139,8 +139,28 @@ Kryteria niezaliczenia
 - All defects have been rectified.
 
 ## List of Functionalities to be Tested
+ja to już opisałam / zastanowić się czy tu to potrzebuje???
+- Order Placement Process - Test Case 001
+- hjfjksdhfks Test Case 002 
+- hfujdhfjd Test Case 003 
 
 ## Test Environment
+Tests of the online store will be conducted on the dedicated server https://rpstore.pl. The test environment closely resembles the production environment in terms of parameters.
+
+Server specification:
+- Processor: 1.60 GHz
+- RAM: 20 GB
+- Disk: 240 GB
+- System: Microsoft Windows 11 Home
+
+Tests will be conducted using the following devices:
+1. PC Computer
+   - Processor: 13 3.6 GHz
+   - RAM: 16 GB
+2. Mobile devices with iOS system, iPhone 14 Pro
+   - Processor: Apple A15 Bionic
+   - RAM: 4 GB
+   - iOS version: 16
 
 ## Error Categories
 
