@@ -74,7 +74,22 @@ Types of tests included in the test plan
 
 - **Usability Testing**
    - **Description**: These tests assess how easy it is for users to interact with the system.
-   - **Example**: Evaluating the user interface to ensure that the process of adding a product to the cart is intuitive and quick.
+
+     1. **Accessibility and Readability**
+       - Evaluation of text readability on various devices.
+       - Checking the responsiveness of the website (whether the site is readable on mobile devices).
+       - Testing accessibility for people with disabilities (e.g., screen reading).
+     2. **Interface Intuitiveness**
+       - Assessment of whether new users can intuitively navigate the site.
+       - Testing whether messages and instructions are clear and understandable.
+
+
+
+
+
+
+
+
 
 - **Compatibility Testing**
    - **Description**: These tests check if the system works correctly on different devices, browsers, and operating systems.
