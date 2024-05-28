@@ -47,27 +47,36 @@ Levels of Testing Covered in the Test Plan:
 Types of tests included in the test plan
 
 - **Functional Testing** - The software will be verified based on provided specifications.
+    
     1. **Navigation on the Website**
-  - Testing the functionality of the main menu and subpages.
-  - Checking links to product categories.
-  - Testing the product search functionality.
+   - Testing the functionality of the main menu and subpages.
+   - Checking links to product categories.
+   - Testing the product search functionality.
 
     2. **Purchase Process**
-  - Adding products to the cart.
-  - Changing the quantity of products in the cart.
-  - Removing products from the cart.
-  - Navigating through the order process (filling in data, choosing delivery and payment methods).
+   - Adding products to the cart.
+   - Changing the quantity of products in the cart.
+   - Removing products from the cart.
+   - Navigating through the order process (filling in data, choosing delivery and payment methods).
 
     3. **Registration and Login**
-  - Creating a new user account.
-  - Logging in and logging out.
-  - Password reminder.
-  - Editing user account data.
+   - Creating a new user account.
+   - Logging in and logging out.
+   - Password reminder.
+   - Editing user account data.
 
     4. **Additional Functionalities**
-  - Testing the operation of product filters and sorting.
-  - Testing the newsletter functionality (sign up and unsubscribe).
-  - Testing the contact form functionality.
+   - Testing the operation of product filters and sorting.
+   - Testing the newsletter functionality (sign up and unsubscribe).
+   - Testing the contact form functionality.
+
+
+
+
+
+
+
+
 
 - **Automated Testing** - Implementation of automated tests for key system functionalities according to provided test cases.
 
