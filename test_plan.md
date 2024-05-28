@@ -139,7 +139,7 @@ Kryteria niezaliczenia
 - All defects have been rectified.
 
 ## List of Functionalities to be Tested
-ja to już opisałam / zastanowić się czy tu to potrzebuje???
+!!!!!!!!!ja to już opisałam / zastanowić się czy tu to potrzebuje???
 - Order Placement Process - Test Case 001
 - hjfjksdhfks Test Case 002 
 - hfujdhfjd Test Case 003 
@@ -163,19 +163,88 @@ Tests will be conducted using the following devices:
    - iOS version: 16
 
 ## Error Categories
+We distinguish different priorities in our test plan:
+- Critical
+- Blocker
+- Major
+- Medium
+- Minor
 
 ## Test Location
+Tests will be conducted at the headquarters of the software development company by the tester.
 
-## Test Schedule
+## Test Schedule 
+!!!!!!tu muszę jeszcze sobie dopisać pozostałe testy jakie uwzględniłam w planie !!!!!!!!
+1. **Static Testing**
+   - Verification of prepared documentation
+   - Verification of user stories
+   Time: 15 h
+
+2. **Functional Testing**
+   - Verification of implemented functionalities according to prepared assumptions
+   - Reporting defects
+   - Execution of test cases
+   Time: 40 h
+
+3. **Performance Testing**
+   - Verification of server response time
+   - Verification of server load with users
+   Time: 20 h
+
+4. **Automated Testing**
+   - Preparation of file structure
+   - Implementation of automated tests based on provided test cases
+   - Integration of tests with Jenkins tool
+   - Integration of tests with Grafana tool
+   Time: 60 h
 
 ## Test Reports
+- Reports on detected defects
+- Designed test cases
+- Automated test scripts
+- Metrics from performance tests
 
 ## List of Tools
 
+1. **Defect Reporting Tools**
+   - Jira
+
+2. **Tools for Creating Test Cases**
+   - TestLink
+   - XRay
+
+3. **Automation Tools**
+   - WebdriverIO
+   - SuperTest
+   - Allure
+   - Jenkins
+   - Grafana
+
+4. **Performance Testing Tools**
+   - JMeter
+
+5. **Tools for Creating Screenshots and Videos**
+   - PickPick
+   - ShareX
+
 ## Incident Management
+After a defect is detected, it will be reported to the defect management system, which is Jira. Such a defect will have a priority specified in the test plan and a person responsible for fixing the issue.
+
+Once the programmer fixes the defect, it will then be assigned back to the tester for confirmation testing.
+
+Upon successful correction of the defect, the report will be closed and moved to the Done column.
+
+In case the defect is not fixed correctly, the report will be reassigned to the programmer.
 
 ## Roles and Responsibilities
 
+- Test Manager - supervising and organizing the work of the entire testing team.
+
+- Test Analyst - analyzing the test basis, preparing test scenarios needed for testing, and supporting the Test Manager.
+
+- Tester - executes tasks assigned by the Test Manager, performs tests, and reports defects.
+
+- System Technical Administrator - prepares the test environment and supervises it during the testing process.
 
 
 
