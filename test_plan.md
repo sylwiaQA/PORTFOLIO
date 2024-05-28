@@ -70,14 +70,6 @@ Types of tests included in the test plan
    - Testing the newsletter functionality (sign up and unsubscribe).
    - Testing the contact form functionality.
 
-
-
-
-
-
-
-
-
 - **Automated Testing** - Implementation of automated tests for key system functionalities according to provided test cases.
 
 - **Usability Testing**
