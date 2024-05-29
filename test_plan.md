@@ -144,7 +144,7 @@ Kryteria niezaliczenia
 - All defects have been rectified.
 
 ## List of Functionalities to be Tested
-!!!!!!!!!ja to już opisałam / zastanowić się czy tu to potrzebuje???
+(!!!!!tu wpisać swoje test case !!!!)
 - Order Placement Process - Test Case 001
 - hjfjksdhfks Test Case 002 
 - hfujdhfjd Test Case 003 
@@ -179,12 +179,12 @@ We distinguish different priorities in our test plan:
 Tests will be conducted at the headquarters of the software development company by the tester.
 
 ## Test Schedule 
-!!!!!!tu muszę jeszcze sobie dopisać pozostałe testy jakie uwzględniłam w planie !!!!!!!!
+
 1. **Static Testing**
    - Verification of prepared documentation
    - Verification of user stories
    Time: 15 h
-   
+
 2. **Functional Testing**
    - Verification of implemented functionalities according to prepared assumptions
    - Reporting defects
