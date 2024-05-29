@@ -98,9 +98,9 @@ Types of tests included in the test plan
     - Testing for vulnerabilities to common attacks (e.g., SQL Injection, XSS).
     - Testing privacy policy and data security measures.
 
-**Error Management**
-- Checking how the website handles incorrect data entered by the user.
-- Testing error messages and their clarity.
+- **Error Management**
+   - Checking how the website handles incorrect data entered by the user.
+   - Testing error messages and their clarity.
 
 
 ## Subject of Testing
