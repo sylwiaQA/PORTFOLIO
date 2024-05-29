@@ -184,7 +184,7 @@ Tests will be conducted at the headquarters of the software development company 
    - Verification of prepared documentation
    - Verification of user stories
    Time: 15 h
-
+   
 2. **Functional Testing**
    - Verification of implemented functionalities according to prepared assumptions
    - Reporting defects
@@ -203,7 +203,7 @@ Tests will be conducted at the headquarters of the software development company 
    - Integration of tests with Grafana tool
    Time: 60 h
 
-## Test Reports
+## Test Reports (!!!tu mogłabym podpiąć swój plik z test cases!!!!!)
 - Reports on detected defects
 - Designed test cases
 - Automated test scripts
