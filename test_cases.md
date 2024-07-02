@@ -76,3 +76,18 @@ TC_008. Verify a function that calculates total price after applying a discount
 |              |                        |              | 4 | Verify the total price of products after aplaying the discount | - | PTotal price is recalculated correctly considering the discount | Pass | - |
 |              |                        |              | 5 | Verify the discount amount is displayed separetly | - | Discount amount is shown as a separate line item  | Pass | - |
 |              |                        |              | 6 | Verify the final total price including the discount and any applicable taxes/shipping | - | Final total price is accurate, reflecting the discount and any additional charges | Pass | - |
+
+TC_009. Verify if the order process is correct (without logged in)
+
+| Test case ID | Test Case Description | Precondition | Step # | Test Steps Details | Test Data | Expected Results | Status | Comments |
+|--------------|------------------------|--------------|--------|--------------------|-----------|------------------|--------|----------|
+| TC_009          |  |The webpage is open: https://rpstore.pl/  User has products/at least one product in the cart and does not have to be logged in| 1 | Go to the cart page | - | Cart page loads correctly. There are displayed all products  | Pass | - |
+|              |                        |              | 2 | Verify the products and quantities in the cart   | - | Products and quantities match the user's selection   | Pass | - |
+|              |                        |               | 3 | Click the 'Przejdź dalej' button | - | User is redirected to the checkout page | Pass | - |
+|              |                        |               | 4 |Fill in the contact field and shipping information (name, address, etc.)  | email: joanna.kowalska@gmail.com, name: Joanna, surname: Kowalska, address: ul. Brzozowa 40, 00-000 Warszawa, Poland, telefon number: 789654123| Shipping information is entered correctly | Pass | - | 
+|              |                        |               | 5 | Click the button 'Przejdź do wysyłki' | - | You are redirected to the shipping method page  | Pass | - |
+|              |                        |               | 6 | Select the shipping method and click 'Przejdź do płatności' button   | shipping method: kurier DHL | You are redirected to the payment page   | Pass | - |
+|              |                        |                | 7 |Choose option 'Taki sam jak adres wysyłki' as billing address, mark field 'Akceptuję regulamin i politykę prywatności' and click the button 'Zamawiam i płacę'  |- |You are redirected to the payment method page  | Pass | - | 
+|              |                        |               | 8 | Select payment method and click button 'Płacę'| payment method: BLIK | You are redirected to the page where you make a payment | Pass | - |
+|              |                        |               | 9 | Enter BLIK code and confirm payment through the clicking on the 'Dalej button'  | -  |Payment information is entered correctly, you are redirected to the summary order page| Pass | - |
+|              |                        |               | 10 | Review the order summary and verify the order confirmation email  | -  |The order summary is displayed and the confirmation email is sent | Pass | - |
