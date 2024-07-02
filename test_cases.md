@@ -57,10 +57,6 @@ TC_006. Verify incorrect product search functionality
 | TC_006          | Verify incorrect product search functionality | Open a webpage: https://rpstore.pl/  | 1 | Click on the magnifying glass icon on the left side of the webpage| - | The search window is shown | Pass | - |
 |              |                        |              | 2 | Enter the input value and click ENTER | 'gazeta' | The subpage with selected product is not displayed   There is a displayed message 'Nie znaleziono wyników' | Pass | - |
 
-
-
-
-
 TC_007. Checking functionality of "sprawdź" button under 'NOWOŚCI' banner
 
 | Test case ID | Test Case Description | Precondition | Step # | Test Steps Details | Test Data | Expected Results | Status | Comments |
@@ -69,3 +65,14 @@ TC_007. Checking functionality of "sprawdź" button under 'NOWOŚCI' banner
 |              |                        |              | 2 | Verify the "sprawdź" button under the banner | - | There is   "sprawdź" button on the homepage The button is clickable | Pass | - |
 |              |                        |              | 3 | Click on the "sprawdź" button | - |User is redirected to the page with section 'Nowości' | Pass | - |
 
+TC_008. Verify a function that calculates total price after applying a discount 
+
+
+| Test case ID | Test Case Description | Precondition | Step # | Test Steps Details | Test Data | Expected Results | Status | Comments |
+|--------------|------------------------|--------------|--------|--------------------|-----------|------------------|--------|----------|
+| TC_008          | Verify a function that calculates total price after applying a discount |The webpage is open: https://rpstore.pl/  User has products in the cart and valid discount| 1 | Go to the cart page | - | Cart page loads correctly.  | Pass | - |
+|              |                        |              | 2 | Verify the initail total price of products in the cart  | - | The initial total price of products is displayed correctly | Pass | - |
+|              |                        |              | 3 | Apply a discount code  | discount code: 'DISCOUNT10' | Discount code is acepted and a message confirming the discount is displyed | Pass | - |
+|              |                        |              | 4 | Verify the total price of products after aplaying the discount | - | PTotal price is recalculated correctly considering the discount | Pass | - |
+|              |                        |              | 5 | Verify the discount amount is displayed separetly | - | Discount amount is shown as a separate line item  | Pass | - |
+|              |                        |              | 6 | Verify the final total price including the discount and any applicable taxes/shipping | - | Final total price is accurate, reflecting the discount and any additional charges | Pass | - |
