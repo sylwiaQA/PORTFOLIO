@@ -91,3 +91,50 @@ TC_009. Verify if the order process is correct (without logged in)
 |              |                        |               | 8 | Select payment method and click button 'Płacę'| payment method: BLIK | You are redirected to the page where you make a payment | Pass | - |
 |              |                        |               | 9 | Enter BLIK code and confirm payment through the clicking on the 'Dalej button'  | -  |Payment information is entered correctly, you are redirected to the summary order page| Pass | - |
 |              |                        |               | 10 | Review the order summary and verify the order confirmation email  | -  |The order summary is displayed and the confirmation email is sent | Pass | - |
+
+TC_010. Creating a new user account.
+
+| Test case ID | Test Case Description | Precondition | Step # | Test Steps Details | Test Data | Expected Results | Status | Comments |
+|--------------|------------------------|--------------|--------|--------------------|-----------|------------------|--------|----------|
+| TC_010          |  |The webpage is open: https://rpstore.pl/  | 1 |  | - |   | Pass | - |
+|              |                        |              | 2 |   | - |   | Pass | - |
+|              |                        |               | 3 |  | - |  | Pass | - |
+|              |                        |               | 4 ||  | Pass | - | 
+|              |                        |               | 5 |  | - |   | Pass | - |
+|              |                        |               | 6 |    |    | Pass | - |
+|              |                        |                | 7 |  |- |  | Pass | - | 
+|              |                        |               | 8 | |  |  | Pass | - |
+|              |                        |               | 9 |   | -  || Pass | - |
+|              |                        |               | 10 | R  | -  || Pass | - |
+
+TC_011. 
+
+
+| Test case ID | Test Case Description | Precondition | Step # | Test Steps Details | Test Data | Expected Results | Status | Comments |
+|--------------|------------------------|--------------|--------|--------------------|-----------|------------------|--------|----------|
+| TC_010          |  |The webpage is open: https://rpstore.pl/  | 1 |  | - |   | Pass | - |
+|              |                        |              | 2 |   | - |   | Pass | - |
+|              |                        |               | 3 |  | - |  | Pass | - |
+|              |                        |               | 4 ||  | Pass | - | 
+|              |                        |               | 5 |  | - |   | Pass | - |
+|              |                        |               | 6 |    |    | Pass | - |
+|              |                        |                | 7 |  |- |  | Pass | - | 
+|              |                        |               | 8 | |  |  | Pass | - |
+|              |                        |               | 9 |   | -  || Pass | - |
+|              |                        |               | 10 | R  | -  || Pass | - |
+
+TC_012. 
+
+
+| Test case ID | Test Case Description | Precondition | Step # | Test Steps Details | Test Data | Expected Results | Status | Comments |
+|--------------|------------------------|--------------|--------|--------------------|-----------|------------------|--------|----------|
+| TC_010          |  |The webpage is open: https://rpstore.pl/  | 1 |  | - |   | Pass | - |
+|              |                        |              | 2 |   | - |   | Pass | - |
+|              |                        |               | 3 |  | - |  | Pass | - |
+|              |                        |               | 4 ||  | Pass | - | 
+|              |                        |               | 5 |  | - |   | Pass | - |
+|              |                        |               | 6 |    |    | Pass | - |
+|              |                        |                | 7 |  |- |  | Pass | - | 
+|              |                        |               | 8 | |  |  | Pass | - |
+|              |                        |               | 9 |   | -  || Pass | - |
+|              |                        |               | 10 | R  | -  || Pass | - |
