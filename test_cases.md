@@ -55,7 +55,7 @@ TC_006. Verify incorrect product search functionality
 | Test case ID | Test Case Description | Precondition | Step # | Test Steps Details | Test Data | Expected Results | Status | Comments |
 |--------------|------------------------|--------------|--------|--------------------|-----------|------------------|--------|----------|
 | TC_006          | Verify incorrect product search functionality | Open a webpage: https://rpstore.pl/  | 1 | Click on the magnifying glass icon on the left side of the webpage| - | The search window is shown | Pass | - |
-|              |                        |              | 2 | Enter the input value and click ENTER | 'gazeta' | The subpage with selected product is not displayed There is a displayed message 'Nie znaleziono wyników' | Pass | - |
+|              |                        |              | 2 | Enter the input value and click ENTER | 'gazeta' | The subpage with selected product is not displayed   There is a displayed message 'Nie znaleziono wyników' | Pass | - |
 
 
 
