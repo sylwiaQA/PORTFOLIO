@@ -11,10 +11,10 @@ TC_001. Adding a product to the cart
 
 | Test case ID | Test Case Description | Precondition | Step # | Test Steps Details | Test Data | Expected Results | Status | Comments |
 |--------------|------------------------|--------------|--------|--------------------|-----------|------------------|--------|----------|
-| TC_001          | Adding a product to the cart | User is on the homepage of the online store: https://rpstore.pl/ | 1 | Scroll to the tab section and click on the first tab | - | Page loads correctly. It opens a page with a list of products | Pass | - |
+| TC_001          | Adding a product to the cart | User is on the homepage of the online store: https://rpstore.pl/ | 1 | Scroll to the product category section and click on the first tab | - | Page loads correctly. A list of products is displayed | Pass | - |
 |              |                        |              | 2 | Click on the first product from the list | - | Product detail page loads | Pass | - |
 |              |                        |              | 3 | Select product properties: color, size and quantity | - | The product properties are correctly marked | Pass | - |
-|              |                        |              | 4 | Click the "Add to Cart" button | - | Product is added to the cart and confirmation cart pop-up is displayed | Pass | - |
+|              |                        |              | 4 | Click the "Dodaj do koszyka" button | - | Product is added to the cart and confirmation cart pop-up is displayed | Pass | - |
 |              |                        |              | 5 | Verify cart icon updates | - | Cart icon reflects the addition of the product | Pass | - |
 |              |                        |              | 6 | Verify product details in the cart | - | Product appears in the cart with correct details (e.g., name, price, quantity) | Pass | - |
 
@@ -22,7 +22,7 @@ TC_002. Changing the quantity of products in the cart
 
 | Test case ID | Test Case Description | Precondition | Step # | Test Steps Details | Test Data | Expected Results | Status | Comments |
 |--------------|------------------------|--------------|--------|--------------------|-----------|------------------|--------|----------|
-| TC_002          | Changing the quantity of products in the cart | Open a webpage: https://rpstore.pl/ You have at least one product in the cart | 1 | Go to the cart page | - | Cart page loads correctly Product is visible in the cart | Pass | - |
+| TC_002          | Changing the quantity of products in the cart | Open a webpage: https://rpstore.pl/ You have at least one product in the cart | 1 | Go to the cart page | product: 'szorty Lana' | Cart page loads correctly Product is visible in the cart | Pass | - |
 |              |                        |              | 2 | Change the quantity of the product (e.g., increase from 1 to 2) | - | Quantity input updates correctly | Pass | - |
 |              |                        |              | 3 | Verify the total price in the cart  | - | Total price reflects the correct amount based on the updated quantity | Pass | - |
 |              |                        |              | 
@@ -32,8 +32,8 @@ TC_003. Removing products from the cart
 
 | Test case ID | Test Case Description | Precondition | Step # | Test Steps Details | Test Data | Expected Results | Status | Comments |
 |--------------|------------------------|--------------|--------|--------------------|-----------|------------------|--------|----------|
-| TC_003          | Removing products from the cart | Open a webpage: https://rpstore.pl/ You have at least one product in the cart | 1 | Go to the cart page | - | Cart page loads correctly Product is visible in the cart | Pass | - |
-|              |                        |              | 2 | Click on the 'usuń' button | - | The product is removed from the cart There is a displayed message: 'twój koszyk jest pusty | Pass | - |
+| TC_003          | Removing products from the cart | Open a webpage: https://rpstore.pl/ You have at least one product in the cart | 1 | Go to the cart page | product: 'szorty Lana' | Cart page loads correctly Product is visible in the cart | Pass | - |
+|              |                        |              | 2 | Click on the 'usuń' button | - | The product is removed from the cart Is displayed a message: 'twój koszyk jest pusty | Pass | - |
 
 TC_004. Checking links to product categories
 
@@ -41,7 +41,7 @@ TC_004. Checking links to product categories
 | Test case ID | Test Case Description | Precondition | Step # | Test Steps Details | Test Data | Expected Results | Status | Comments |
 |--------------|------------------------|--------------|--------|--------------------|-----------|------------------|--------|----------|
 | TC_004          | Checking links to product categories | Open a webpage: https://rpstore.pl/  | 1 | Select the first  product category from the left and go to it (click on it) | - | The subpage with the correct category is shown | Pass | - |
-|              |                        |              | 2 | Please repeat this action for each product category | - | All subpages are displayed with correct category of product | Pass | - |
+|              |                        |              | 2 | Please repeat this action for each product category | - | All subpages are displayed with correct product category  | Pass | - |
          
 TC_005 Verify correct product search functionality   
 
@@ -70,10 +70,10 @@ TC_008. Verify a function that calculates total price after applying a discount
 
 | Test case ID | Test Case Description | Precondition | Step # | Test Steps Details | Test Data | Expected Results | Status | Comments |
 |--------------|------------------------|--------------|--------|--------------------|-----------|------------------|--------|----------|
-| TC_008          | Verify a function that calculates total price after applying a discount |The webpage is open: https://rpstore.pl/  User has products in the cart and valid discount| 1 | Go to the cart page | - | Cart page loads correctly.  | Pass | - |
+| TC_008          | Verify a function that calculates total price after applying a discount |The webpage is open: https://rpstore.pl/  User has products in the cart and valid discount| 1 | Go to the cart page | product: 'szorty Lana' | Cart page loads correctly.  | Pass | - |
 |              |                        |              | 2 | Verify the initail total price of products in the cart  | - | The initial total price of products is displayed correctly | Pass | - |
 |              |                        |              | 3 | Apply a discount code  | discount code: 'DISCOUNT10' | Discount code is acepted and a message confirming the discount is displyed | Pass | - |
-|              |                        |              | 4 | Verify the total price of products after aplaying the discount | - | PTotal price is recalculated correctly considering the discount | Pass | - |
+|              |                        |              | 4 | Verify the total price of products after aplaying the discount | - | Total price is recalculated correctly considering the discount | Pass | - |
 |              |                        |              | 5 | Verify the discount amount is displayed separetly | - | Discount amount is shown as a separate line item  | Pass | - |
 |              |                        |              | 6 | Verify the final total price including the discount and any applicable taxes/shipping | - | Final total price is accurate, reflecting the discount and any additional charges | Pass | - |
 
@@ -98,17 +98,17 @@ TC_010. Creating a new user account
 |--------------|------------------------|--------------|--------|--------------------|-----------|------------------|--------|----------|
 | TC_010          | Creating a new user account |The webpage is open: https://rpstore.pl/  | 1 |Click on the 'log in' icon in the upper right corner | - |You are redirected to the login page   | Pass | - |
 |              |                        |              | 2 |Click on the hyperlink 'Utwórz konto'   | - | You are redirected to the registration page  | Pass | - |
-|              |                        |               | 3 |Complete all required fields (input values) and markt option 'Akceptuję regulamin i politykę prywatności'  | imię: Jan, nazwisko: Kowalski, email: kowalski.jan@gmail.com, hasło: 12#345.89@ |You are redirected to the homepage, you are logged in correctly.   | Pass | - |
+|              |                        |               | 3 |Complete all required fields (input values) and mark the option 'Akceptuję regulamin i politykę prywatności'  | imię: Jan, nazwisko: Kowalski, email: kowalski.jan@gmail.com, hasło: 12#345.89@ |You are redirected to the homepage, you are logged in correctly.   | Pass | - |
 
-TC_011. Logging in ( valid credentials) and logging out
+TC_011. Logging in ( valid credentials) and logging out functionality
 
 
 | Test case ID | Test Case Description | Precondition | Step # | Test Steps Details | Test Data | Expected Results | Status | Comments |
 |--------------|------------------------|--------------|--------|--------------------|-----------|------------------|--------|----------|
-| TC_011          |Logging in and logging out  |The webpage is open: https://rpstore.pl/  | 1 |Click on the 'login' icon in the upper right corner  | - | Login page is displayed  | Pass | - |
-|              |                        |              | 2 |Enter valid username and password   | email:kowalski.jan@gmail.com, hasło:  12#345.89@   | Fields are accepted  | Pass | - |
+| TC_011          |Logging in (valid credentials) and logging out functionality  |The webpage is open: https://rpstore.pl/  | 1 |Click on the 'login' icon in the upper right corner  | - | Login page is displayed  | Pass | - |
+|              |                        |              | 2 |Enter valid email and password   | email:kowalski.jan@gmail.com, hasło:  12#345.89@   | Fields are accepted  | Pass | - |
 |              |                        |               | 3 |Click on the 'login' button  | - | User is logged in and redirected to the page with order history. Button 'Wyloguj' is displayed  | Pass | - |
-|              |                        |               | 4 |Click on the 'logout' hyperlink| - | Pass | - | User is logged out and redirected to the homepage
+|              |                        |               | 4 |Click on the 'logout' hyperlink| - |  User is logged out and redirected to the homepage|Pass  | -
 |              |                        |               | 5 |Verify "Login" button is visible again  | - |'Login' button is displayed   | Pass | - |
 
 TC_012. Logging in with invalid credentials
@@ -116,7 +116,7 @@ TC_012. Logging in with invalid credentials
 | Test case ID | Test Case Description | Precondition | Step # | Test Steps Details | Test Data | Expected Results | Status | Comments |
 |--------------|------------------------|--------------|--------|--------------------|-----------|------------------|--------|----------|
 | TC_012          | Logging in with invalid credentials |The webpage is open: https://rpstore.pl/  | 1 |Click on the 'login' icon in the upper right corner  | - | Login page is displayed  | Pass | - |
-|              |                        |              | 2 |Enter invalid email or password   | email: invalid@gmail.com, hasło: 12345 |  Fields accept input | Pass | - |
+|              |                        |              | 2 |Enter invalid email or password   | email: invalid@gmail.com, hasło: 12345 |  Fields accept input data| Pass | - |
 |              |                        |               | 3 |Click on the 'Zaloguj się" button  | - | You are remain on the login page. Login incorrect | Pass | - |
 |              |                        |               | 4 |Verify error message is displayed|-|Is showned message: 'Nieprawidłowy email lub hasło'   | Pass | - |
 |              |                        |               | 5 |Verify login fields are not cleared  | - | Email and password fields still contain input  | Pass | - |
