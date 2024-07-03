@@ -113,7 +113,6 @@ TC_011. Logging in ( valid credentials) and logging out
 
 TC_012. Loggin in with invalid credentials
 
-
 | Test case ID | Test Case Description | Precondition | Step # | Test Steps Details | Test Data | Expected Results | Status | Comments |
 |--------------|------------------------|--------------|--------|--------------------|-----------|------------------|--------|----------|
 | TC_012          | Loggin in with invalid credentials |The webpage is open: https://rpstore.pl/  | 1 |Click on the 'login' icon in the upper right corner  | - | Login page is displayed  | Pass | - |
@@ -121,3 +120,15 @@ TC_012. Loggin in with invalid credentials
 |              |                        |               | 3 |Click on the 'Zaloguj się" button  | - | You are remain on the login page. Login incorrect | Pass | - |
 |              |                        |               | 4 |Verify error message is displayed|-|Is showned message: 'Nieprawidłowy email lub hasło'   | Pass | - |
 |              |                        |               | 5 |Verify login fields are not cleared  | - | Email and password fields still contain input  | Pass | - |
+
+TC_013. Password reminder functionality
+
+| Test case ID | Test Case Description | Precondition | Step # | Test Steps Details | Test Data | Expected Results | Status | Comments |
+|--------------|------------------------|--------------|--------|--------------------|-----------|------------------|--------|----------|
+| TC_013          | Password reminder functionality |The webpage is open: https://rpstore.pl/ User is on the login page, User must have an existing account with a valid email address | 1 |Navigate to the login page|-|Login page is displayed  | Pass | - |
+|              |                        |              | 2 |Click on the 'Nie pamiętasz hasła?' link |-|You are redirected to the password reminder page| Pass | - |
+|              |                        |               | 3 |Enter a registered email address in the email input field  | email:kowalski.jan@gmail.com | Email input field accepts the email | Pass | - |
+|              |                        |               | 4 |Click on the 'Odzyskaj' button|-| You are redirected to recover password page with message:'Na Twój adres został wysłany e-mail z instrukcjami dotyczącymi odzyskania hasła'.   | Pass | - |
+|              |                        |               | 5 |Verify the inbox of the entered email address  | - |An email with a password reset link is sent to the provided email address   | Pass | - |
+|              |                        |               | 6 |Open the email received and click on the password reset link|-|You are redirected to a password reset page   | Pass | - |
+|              |                        |               |7 |Enter a new password in the provided fields and click on the 'Zresetuj' button | - |You are successfully log in with the new password and redirected to the order history page   | Pass | - |
