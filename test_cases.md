@@ -92,37 +92,32 @@ TC_009. Verify if the order process is correct (without logged in)
 |              |                        |               | 9 | Enter BLIK code and confirm payment through the clicking on the 'Dalej button'  | -  |Payment information is entered correctly, you are redirected to the summary order page| Pass | - |
 |              |                        |               | 10 | Review the order summary and verify the order confirmation email  | -  |The order summary is displayed and the confirmation email is sent | Pass | - |
 
-TC_010. Creating a new user account: correctness
+TC_010. Creating a new user account
 
 | Test case ID | Test Case Description | Precondition | Step # | Test Steps Details | Test Data | Expected Results | Status | Comments |
 |--------------|------------------------|--------------|--------|--------------------|-----------|------------------|--------|----------|
-| TC_010          | Creating a new user account: correctness |The webpage is open: https://rpstore.pl/  | 1 |Click on the 'log in' icon in the upper right corner | - |You are redirected to the login page   | Pass | - |
+| TC_010          | Creating a new user account |The webpage is open: https://rpstore.pl/  | 1 |Click on the 'log in' icon in the upper right corner | - |You are redirected to the login page   | Pass | - |
 |              |                        |              | 2 |Click on the hyperlink 'Utwórz konto'   | - | You are redirected to the registration page  | Pass | - |
 |              |                        |               | 3 |Complete all required fields (input values) and markt option 'Akceptuję regulamin i politykę prywatności'  | imię: Jan, nazwisko: Kowalski, email: kowalski.jan@gmail.com, hasło: 12#345.89@ |You are redirected to the homepage, you are logged in correctly.   | Pass | - |
 
-TC_011. Logging in and logging out: correctness
+TC_011. Logging in ( valid credentials) and logging out
 
 
 | Test case ID | Test Case Description | Precondition | Step # | Test Steps Details | Test Data | Expected Results | Status | Comments |
 |--------------|------------------------|--------------|--------|--------------------|-----------|------------------|--------|----------|
-| TC_011          |Logging in and logging out: correctness  |The webpage is open: https://rpstore.pl/  | 1 |Clcik on the 'login' icon in the upper right corner  | - | Login page is displayed  | Pass | - |
+| TC_011          |Logging in and logging out  |The webpage is open: https://rpstore.pl/  | 1 |Click on the 'login' icon in the upper right corner  | - | Login page is displayed  | Pass | - |
 |              |                        |              | 2 |Enter valid username and password   | email:kowalski.jan@gmail.com, hasło:  12#345.89@   | Fields are accepted  | Pass | - |
 |              |                        |               | 3 |Click on the 'login' button  | - | User is logged in and redirected to the page with order history. Button 'Wyloguj' is displayed  | Pass | - |
 |              |                        |               | 4 |Click on the 'logout' hyperlink| - | Pass | - | User is logged out and redirected to the homepage
 |              |                        |               | 5 |Verify "Login" button is visible again  | - |'Login' button is displayed   | Pass | - |
 
-TC_012. 
+TC_012. Loggin in with invalid credentials
 
 
 | Test case ID | Test Case Description | Precondition | Step # | Test Steps Details | Test Data | Expected Results | Status | Comments |
 |--------------|------------------------|--------------|--------|--------------------|-----------|------------------|--------|----------|
-| TC_010          |  |The webpage is open: https://rpstore.pl/  | 1 |  | - |   | Pass | - |
-|              |                        |              | 2 |   | - |   | Pass | - |
-|              |                        |               | 3 |  | - |  | Pass | - |
-|              |                        |               | 4 ||  | Pass | - | 
-|              |                        |               | 5 |  | - |   | Pass | - |
-|              |                        |               | 6 |    |    | Pass | - |
-|              |                        |                | 7 |  |- |  | Pass | - | 
-|              |                        |               | 8 | |  |  | Pass | - |
-|              |                        |               | 9 |   | -  || Pass | - |
-|              |                        |               | 10 | R  | -  || Pass | - |
+| TC_012          | Loggin in with invalid credentials |The webpage is open: https://rpstore.pl/  | 1 |Click on the 'login' icon in the upper right corner  | - | Login page is displayed  | Pass | - |
+|              |                        |              | 2 |Enter invalid email or password   | email: invalid@gmail.com, hasło: 12345 |  Fields accept input | Pass | - |
+|              |                        |               | 3 |Click on the 'Zaloguj się" button  | - | You are remain on the login page. Login incorrect | Pass | - |
+|              |                        |               | 4 |Verify error message is displayed|-|Is showned message: 'Nieprawidłowy email lub hasło'   | Pass | - |
+|              |                        |               | 5 |Verify login fields are not cleared  | - | Email and password fields still contain input  | Pass | - |
