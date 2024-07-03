@@ -1,4 +1,4 @@
-# BUG REPORTS 
+# BUG Reports 
 
 ![Bug Reports Page Image]( )
 
