@@ -92,7 +92,7 @@ TC_009. Verify if the order process is correct (without logged in)
 |              |                        |               | 9 | Enter BLIK code and confirm payment through the clicking on the 'Dalej button'  | -  |Payment information is entered correctly, you are redirected to the summary order page| Pass | - |
 |              |                        |               | 10 | Review the order summary and verify the order confirmation email  | -  |The order summary is displayed and the confirmation email is sent | Pass | - |
 
-TC_010. Creating a new user account
+TC_010. Creating a new user account: correctness
 
 | Test case ID | Test Case Description | Precondition | Step # | Test Steps Details | Test Data | Expected Results | Status | Comments |
 |--------------|------------------------|--------------|--------|--------------------|-----------|------------------|--------|----------|
