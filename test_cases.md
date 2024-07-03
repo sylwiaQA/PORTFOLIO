@@ -111,11 +111,11 @@ TC_011. Logging in ( valid credentials) and logging out
 |              |                        |               | 4 |Click on the 'logout' hyperlink| - | Pass | - | User is logged out and redirected to the homepage
 |              |                        |               | 5 |Verify "Login" button is visible again  | - |'Login' button is displayed   | Pass | - |
 
-TC_012. Loggin in with invalid credentials
+TC_012. Logging in with invalid credentials
 
 | Test case ID | Test Case Description | Precondition | Step # | Test Steps Details | Test Data | Expected Results | Status | Comments |
 |--------------|------------------------|--------------|--------|--------------------|-----------|------------------|--------|----------|
-| TC_012          | Loggin in with invalid credentials |The webpage is open: https://rpstore.pl/  | 1 |Click on the 'login' icon in the upper right corner  | - | Login page is displayed  | Pass | - |
+| TC_012          | Logging in with invalid credentials |The webpage is open: https://rpstore.pl/  | 1 |Click on the 'login' icon in the upper right corner  | - | Login page is displayed  | Pass | - |
 |              |                        |              | 2 |Enter invalid email or password   | email: invalid@gmail.com, hasło: 12345 |  Fields accept input | Pass | - |
 |              |                        |               | 3 |Click on the 'Zaloguj się" button  | - | You are remain on the login page. Login incorrect | Pass | - |
 |              |                        |               | 4 |Verify error message is displayed|-|Is showned message: 'Nieprawidłowy email lub hasło'   | Pass | - |
@@ -132,3 +132,14 @@ TC_013. Password reminder functionality
 |              |                        |               | 5 |Verify the inbox of the entered email address  | - |An email with a password reset link is sent to the provided email address   | Pass | - |
 |              |                        |               | 6 |Open the email received and click on the password reset link|-|You are redirected to a password reset page   | Pass | - |
 |              |                        |               |7 |Enter a new password in the provided fields and click on the 'Zresetuj' button | - |You are successfully log in with the new password and redirected to the order history page   | Pass | - |
+
+TC_014.  Newsletter subscription functionality
+
+| Test case ID | Test Case Description | Precondition | Step # | Test Steps Details | Test Data | Expected Results | Status | Comments |
+|--------------|------------------------|--------------|--------|--------------------|-----------|------------------|--------|----------|
+| TC_014          | Newsletter subscription functionality |The webpage is open: https://rpstore.pl/ User must have an existing account with a valid email address | 1 |Scroll to the newsletter subscription section at the bottom of the homepage and click on 'Newsletter' field|-|Is displayed a popup you can entry needed data  | Pass | - |
+|              |                        |              | 2 |Entry needed values in the input fields  | name: Jan, email: kowalski.jan@gmail.com |Fields accept the input data   | Pass | - |
+|              |                        |               | 3 |Click on the 'Zapisz się' button  | - | Is displayed a message 'Udało się' | Pass | - |
+|              |                        |               | 4 |Check the inbox of the entered email address | - |An email confirming your subscription has been sent| Pass | - | 
+|              |                        |               | 5 |Click the confirmation link in the email.  | - |You are successfully subscribed to the newsletter   | Pass | - |
+|              |                        |               | 6 |    |- || Pass | - |
