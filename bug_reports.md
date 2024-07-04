@@ -39,3 +39,19 @@ Below you can find some bug reports which I have encountered during exploratory 
 | **Actual result**    | The loader icon is not vertically centered; it appears incorrect with the label.               |
 | **Attachments**      |  [BU-2.mp4](images/bugreports/BU-2.mp4)     |
 
+# BU-3: Excessive space before the last letter in "Return to store" button
+
+| Field                | Description                                                                                      |
+|----------------------|--------------------------------------------------------------------------------------------------|
+| **Bug ID**           | BU-3                                                                                             |
+| **Title**            | Excessive space before the last letter in "Return to store" button                       |
+| **Severity**         | Medium                                                                                           |
+| **Issue type**       | UI/Visual                                                                                       |
+| **Description**      | After removing a product from the cart, the "Return to store" button appears with excessive space before the last letter 'E' |
+| **Environment**      | - **URL:** [academybugs.com](http://academybugs.com) <br> - **Browser:** [Firefox 127.0.2 (64 bity)] <br> - **Operating System:** [Microsoft Windows 11 Home] |
+| **Precondition**      | User has at last one product in the cart |
+| **Steps to reproduce** | 1. Open [academybugs.com](http://academybugs.com). <br> 2. Click the "Find bugs" link on the navigation bar. <br> 3. Click on a product, open it, and click the "Add to cart" button. <br> 4. Remove the product from the cart  |
+| **Expected result**  | "Return to Store" button is written corretly.               |
+| **Actual result**    | There is excessive space before the last letter 'E' in the "Return to store" button.     |
+| **Attachments**      |  [BU-3.mp4](images/bugreports/BU-3.mp4) <br>  ![Screenshot](images/bugreports/BU-3.png)       |
+            
