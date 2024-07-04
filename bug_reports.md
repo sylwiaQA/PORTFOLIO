@@ -70,5 +70,20 @@ Below you can find some bug reports which I have encountered during exploratory 
 | **Actual result**    | Upon clicking "Update", the product quantity resets to 2 instead of allowing values above 2.    |
 | **Attachments**      | ![Screenshot](images/bugreports/BU-4.png)       |
 
+# BU-5: Freezing page when changing currency
+
+| Field                | Description                                                                                      |
+|----------------------|--------------------------------------------------------------------------------------------------|
+| **Bug ID**           | BU-5                                                                                             |
+| **Title**            | Freezing page when changing currency                                                              |
+| **Severity**         | Medium                                                                                           |
+| **Issue type**       | Crash                                                                                     |
+| **Description**      | When attempting to change the currency by selecting a different option in the right-side menu, the page freezes and becomes unresponsive. |
+| **Environment**      | - **URL:** [academybugs.com](http://academybugs.com) <br> - **Browser:** [Firefox 127.0.2 (64 bity)] <br> - **Operating System:** [Microsoft Windows 11 Home] |
+| **Steps to reproduce** | 1. Go to [academybugs.com](http://academybugs.com). <br> 2. Click the "Find Bugs" link on the navigation bar. <br> 3. Open a product card. <br> 4. Attempt to change the currency using the options in the right-side menu. |
+| **Expected result**  | The currency should be successfully changed to the selected option without any issues.           |
+| **Actual result**    | Upon selecting a different currency option, the page freezes and does not respond to further actions. |
+| **Attachments**      | ![Screenshot](images/bugreports/BU-5.png)       |
+
 
             
