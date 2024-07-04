@@ -54,4 +54,21 @@ Below you can find some bug reports which I have encountered during exploratory 
 | **Expected result**  | "Return to Store" button is written corretly.               |
 | **Actual result**    | There is excessive space before the last letter 'E' in the "Return to store" button.     |
 | **Attachments**      |  [BU-3.mp4](images/bugreports/BU-3.mp4) <br>  ![Screenshot](images/bugreports/BU-3.png)       |
+
+# BU-4: Inability to increase product quantity above 2
+
+| Field                | Description                                                                                      |
+|----------------------|--------------------------------------------------------------------------------------------------|
+| **Bug ID**           | BU-4                                                                                             |
+| **Title**            | Inability to increase product quantity above 2                                                    |
+| **Severity**         | High                                                                                             |
+| **Issue type**       | Functionality                                                                                     |
+| **Description**      | After adding one or more products to the cart, when navigating to the cart and attempting to set the product quantity to 3 or more, clicking the "update" button results in the quantity resetting to 2. |
+| **Environment**      | - **URL:** [academybugs.com](http://academybugs.com) <br> - **Browser:** [Firefox 127.0.2 (64 bity)] <br> - **Operating System:** [Microsoft Windows 11 Home] |
+| **Steps to reproduce** | 1. Navigate to [academybugs.com](http://academybugs.com). <br> 2. Click the "Find bugs" link on the navigation bar. <br> 3. Add one or more products to the cart. <br> 4. Click the "View cart" link at the top left of the page. <br> 5. Set the quantity of products to 3 or more. <br> 6. Click the "Update" button below. |
+| **Expected result**  | The product quantity should be updated regarding to the entered value after clicking "Update".  |
+| **Actual result**    | Upon clicking "Update", the product quantity resets to 2 instead of allowing values above 2.    |
+| **Attachments**      | ![Screenshot](images/bugreports/BU-4.png)       |
+
+
             
