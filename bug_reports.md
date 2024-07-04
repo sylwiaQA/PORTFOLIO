@@ -36,6 +36,6 @@ Below you can find some bug reports which I have encountered during exploratory 
 | **Environment**      | - **URL:** [academybugs.com](http://academybugs.com) <br> - **Browser:** [Firefox 127.0.2 (64 bity)] <br> - **Operating System:** [Microsoft Windows 11 Home] |
 | **Steps to reproduce** | 1. Open [academybugs.com](http://academybugs.com). <br> 2. Click the "Find Bugs" link in the navigation bar. <br> 3. Click the "Add to cart" button. |
 | **Expected result**  | The loader icon should appear vertically centered in relation to the label "Add to cart".    |
-| **Actual result**    | The loader icon is not vertically centered; it appears incorrected with the label.               |
+| **Actual result**    | The loader icon is not vertically centered; it appears incorrect with the label.               |
 | **Attachments**      |  [BU-2.mp4](images/bugreports/BU-2.mp4)     |
 
