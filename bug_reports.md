@@ -1,5 +1,24 @@
-# BUG Reports 
+# Bug Reports 
 
-![Bug Reports Page Image]( )
+![Bug Reports Page Image](images/bugreports/bugreports.jpg)
 
-Test environment:
+
+Test environment: https://academybugs.com/find-bugs/
+
+Below you can find some bug reports which I have encountered during exploratory testing
+
+
+# BU-1: Functionality to display a specific number of products on the page does not work
+
+| Field                | Description                                                                                      |
+|----------------------|--------------------------------------------------------------------------------------------------|
+| **Bug ID**           | BU-1                                                                                             |
+| **Title**            | Functionality to display a specific number of products on the page does not work                 |
+| **Severity**         | High                                                                                             |
+| **Issue type**       | Crash                                                                                            |
+| **Description**      | After navigating to the main page and clicking on any filter label to display a certain number of products on the page, the page crashes suddenly. Additionally, the functionality does not work. |
+| **Environment**      | - **URL:** [academybugs.com](http://academybugs.com) <br> - **Browser:** [Firefox 127.0.2 (64 bity)] <br> - **Operating System:** [Microsoft Windows 11 Home ]|
+| **Steps to reproduce** | 1. Open [academybugs.com](http://academybugs.com) <br> 2. Click the "Find Bugs" on the navigation bar <br> 3. Click on the button to show a certain number of results at the top left |
+| **Expected result**  | The selected number of results should be displayed according to the clicked buttons.              |
+| **Actual result**    | The page freezes when clicking on the number of results. Functionality does not work.             |
+| **Attachments**      | ![Filmik.mp4](images/bugreports/BU-1.mp4)                                                         |
