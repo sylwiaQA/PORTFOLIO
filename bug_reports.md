@@ -24,7 +24,7 @@ Below you can find some bug reports which I have encountered during exploratory 
 | **Attachments**      | [BU-1.mp4](images/bugreports/BU-1.mp4)                                                            |
 |                      | ![BU-1.Screenshot](images/bugreports/BU-1.png)                                                    |
 
-# BU-2: Loader Icon Not Vertically Centered Relative to the Label "Adding to Cart"
+# BU-2:  Loader icon is not vertically centered relative to the Label "Add to cart"  
 
 | Field                | Description                                                                                      |
 |----------------------|--------------------------------------------------------------------------------------------------|
