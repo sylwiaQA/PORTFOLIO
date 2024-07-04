@@ -22,4 +22,4 @@ Below you can find some bug reports which I have encountered during exploratory 
 | **Expected result**  | The selected number of results should be displayed according to the clicked buttons.              |
 | **Actual result**    | The page freezes when clicking on the number of results. Functionality does not work.             |
 | **Attachments**      | [BU-1.mp4](images/bugreports/BU-1.mp4)                                                            |
-| **Attachments**      | ![Screenshot](images/bugreports/BU-1.png)                                                         |
+| **Attachments**      | ![BU-1.Screenshot](images/bugreports/BU-1.png)                                                         |
