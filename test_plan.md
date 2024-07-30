@@ -1,6 +1,7 @@
 # Test Plan for an online Store
 
- Table of Contents:
+Table of Contents:
+
 1. [Purpose of Testing](#Purpose-of-Testing)
 2. [Scope of Testing](#scope-of-testing)
 3. [Subject of Testing](#subject-of-testing)
@@ -19,89 +20,107 @@
 16. [Roles and Responsibilities](#roles-and-responsibilities)
 
 ## Purpose of Testing
-The purpose of the created test plan is to thoroughly test the functionality of the store based on the provided requirements. 
 
-The store's address is: https://rpstore.pl. 
+The purpose of the created test plan is to thoroughly test the functionality of the store based on the provided requirements.
+
+The store's address is: https://rpstore.pl.
 
 All encountered defects will be fixed and handed over to testers for confirmation testing.
 
 ## Scope of Testing
+
 Levels of Testing Covered in the Test Plan:
 
 - **Unit Testing**
-   - **Description**: These tests check the smallest units of code (functions, methods, classes) in isolation.
-   - **Example**: Testing a function that calculates the total price of products in the cart after applying a discount.
+
+  - **Description**: These tests check the smallest units of code (functions, methods, classes) in isolation.
+  - **Example**: Testing a function that calculates the total price of products in the cart after applying a discount.
 
 - **Integration Testing**
-   - **Description**: These tests ensure that different modules or services work together correctly.
-   - **Example**: Checking if the payment module correctly communicates with the payment gateway and updates the order status.
+
+  - **Description**: These tests ensure that different modules or services work together correctly.
+  - **Example**: Checking if the payment module correctly communicates with the payment gateway and updates the order status.
 
 - **System Testing**
-   - **Description**: These tests verify if the entire system meets the functional and non-functional requirements.
-   - **Example**: Testing the full purchase process, from adding a product to the cart, through the payment process, to order confirmation.
+
+  - **Description**: These tests verify if the entire system meets the functional and non-functional requirements.
+  - **Example**: Testing the full purchase process, from adding a product to the cart, through the payment process, to order confirmation.
 
 - **Acceptance Testing**
-   - **Description**: These tests check if the system meets the acceptance criteria and is ready for deployment.
-   - **Example**: Conducting end-user tests to ensure that the user registration process is intuitive and error-free.
+  - **Description**: These tests check if the system meets the acceptance criteria and is ready for deployment.
+  - **Example**: Conducting end-user tests to ensure that the user registration process is intuitive and error-free.
 
 Types of tests included in the test plan
 
 - **Functional Testing** - The software will be verified based on provided specifications.
-    
-    1. **Navigation on the Website**
-   - Testing the functionality of the main menu and subpages.
-   - Checking links to product categories.
-   - Testing the product search functionality.
 
-    2. **Purchase Process**
-   - Adding products to the cart.
-   - Changing the quantity of products in the cart.
-   - Removing products from the cart.
-   - Navigating through the order process (filling in data, choosing delivery and payment methods).
+  1. **Navigation on the Website**
 
-    3. **Registration and Login**
-   - Creating a new user account.
-   - Logging in and logging out.
-   - Password reminder.
-   - Editing user account data.
+  - Testing the functionality of the main menu and subpages.
+  - Checking links to product categories.
+  - Testing the product search functionality.
 
-    4. **Additional Functionalities**
-   - Testing the operation of product filters and sorting.
-   - Testing the newsletter functionality (sign up and unsubscribe).
-   - Testing the contact form functionality.
+  2. **Purchase Process**
+
+  - Adding products to the cart.
+  - Changing the quantity of products in the cart.
+  - Removing products from the cart.
+  - Navigating through the order process (filling in data, choosing delivery and payment methods).
+
+  3. **Registration and Login**
+
+  - Creating a new user account.
+  - Logging in and logging out.
+  - Password reminder.
+  - Editing user account data.
+
+  4. **Additional Functionalities**
+
+  - Testing the operation of product filters and sorting.
+  - Testing the newsletter functionality (sign up and unsubscribe).
+  - Testing the contact form functionality.
 
 - **Automated Testing** - Implementation of automated tests for key system functionalities according to provided test cases.
 
 - **Usability Testing** - These tests assess how easy it is for users to interact with the system.
-     1. **Accessibility and Readability**
+
+  1.  **Accessibility and Readability**
+
+
        - Evaluation of text readability on various devices.
        - Checking the responsiveness of the website (whether the site is readable on mobile devices).
        - Testing accessibility for people with disabilities (e.g., screen reading).
-     2. **Interface Intuitiveness**
+
+  2.  **Interface Intuitiveness**
+
+
        - Assessment of whether new users can intuitively navigate the site.
        - Testing whether messages and instructions are clear and understandable.
 
 - **Compatibility Testing** - These tests check if the system works correctly on different devices, browsers, and operating systems.
-    - Testing the website on different browsers (Chrome, Firefox, Safari, Edge).
-    - Testing on different operating systems (Windows, macOS, Linux).
-    - Checking the website's functionality on various screen resolutions.
 
-- **Regression Testing** -  These tests aim to detect if new changes in the code have introduced errors in existing functionality.
-   - After adding a new product filtering feature, testing the entire purchasing process to ensure it works correctly.
+  - Testing the website on different browsers (Chrome, Firefox, Safari, Edge).
+  - Testing on different operating systems (Windows, macOS, Linux).
+  - Checking the website's functionality on various screen resolutions.
+
+- **Regression Testing** - These tests aim to detect if new changes in the code have introduced errors in existing functionality.
+
+  - After adding a new product filtering feature, testing the entire purchasing process to ensure it works correctly.
 
 - **Performance Testing** - These tests evaluate how the system behaves under load.
-    - Checking page loading times.
-    - Testing the performance of the website under heavy load (e.g., simulating multiple users).
+
+  - Checking page loading times.
+  - Testing the performance of the website under heavy load (e.g., simulating multiple users).
 
 - **Security Testing** - These tests identify potential security vulnerabilities in the system.
-     - Verifying if user data is securely transmitted (e.g., via HTTPS).
-    - Testing for vulnerabilities to common attacks (e.g., SQL Injection, XSS).
-    - Testing privacy policy and data security measures.
+
+  - Verifying if user data is securely transmitted (e.g., via HTTPS).
+  - Testing for vulnerabilities to common attacks (e.g., SQL Injection, XSS).
+  - Testing privacy policy and data security measures.
 
 - **Error Management**
-   - Checking how the website handles incorrect data entered by the user.
-   - Testing error messages and their clarity.
-
+  - Checking how the website handles incorrect data entered by the user.
+  - Testing error messages and their clarity.
 
 ## Subject of Testing
 
@@ -111,10 +130,12 @@ https://rpstore.pl along with all its functionalities.
 ## Pass Criteria
 
 1. **Performance Testing**
+
    - Server response time must not exceed 500 ms.
    - The software must withstand a load of 1000 users simultaneously.
 
 2. **Functional Testing**
+
    - Acceptance criteria are aligned with the current implementation of the online store.
 
 3. **Automated Testing**
@@ -123,9 +144,8 @@ https://rpstore.pl along with all its functionalities.
 
 ## Fail Criteria
 
-Kryteria niezaliczenia
-
 1. **Performance Testing**
+
    - Server response time exceeds 500 ms.
 
 2. **Functional Testing**
@@ -144,21 +164,26 @@ Kryteria niezaliczenia
 - All defects have been rectified.
 
 ## List of Functionalities to be Tested
-(!!!!!tu wpisać swoje test case !!!!)
+
+(work in progress)
+
 - Order Placement Process - Test Case 001
-- hjfjksdhfks Test Case 002 
-- hfujdhfjd Test Case 003 
+- Test Case 002
+- Test Case 003
 
 ## Test Environment
+
 Tests of the online store will be conducted on the dedicated server https://rpstore.pl. The test environment closely resembles the production environment in terms of parameters.
 
 Server specification:
+
 - Processor: 1.60 GHz
 - RAM: 20 GB
 - Disk: 240 GB
 - System: Microsoft Windows 11 Home
 
 Tests will be conducted using the following devices:
+
 1. PC Computer
    - Processor: 13 3.6 GHz
    - RAM: 16 GB
@@ -168,7 +193,9 @@ Tests will be conducted using the following devices:
    - iOS version: 16
 
 ## Error Categories
+
 We distinguish different priorities in our test plan:
+
 - Critical
 - Blocker
 - Major
@@ -176,34 +203,39 @@ We distinguish different priorities in our test plan:
 - Minor
 
 ## Test Location
+
 Tests will be conducted at the headquarters of the software development company by the tester.
 
-## Test Schedule 
+## Test Schedule
 
 1. **Static Testing**
+
    - Verification of prepared documentation
    - Verification of user stories
-   Time: 15 h
+     Time: 15 h
 
 2. **Functional Testing**
+
    - Verification of implemented functionalities according to prepared assumptions
    - Reporting defects
    - Execution of test cases
-   Time: 40 h
+     Time: 40 h
 
 3. **Performance Testing**
+
    - Verification of server response time
    - Verification of server load with users
-   Time: 20 h
+     Time: 20 h
 
 4. **Automated Testing**
    - Preparation of file structure
    - Implementation of automated tests based on provided test cases
    - Integration of tests with Jenkins tool
    - Integration of tests with Grafana tool
-   Time: 60 h
+     Time: 60 h
 
-## Test Reports (!!!tu mogłabym podpiąć swój plik z test cases!!!!!)
+## Test Reports
+
 - Reports on detected defects
 - Designed test cases
 - Automated test scripts
@@ -212,13 +244,16 @@ Tests will be conducted at the headquarters of the software development company 
 ## List of Tools
 
 1. **Defect Reporting Tools**
+
    - Jira
 
 2. **Tools for Creating Test Cases**
+
    - TestLink
    - XRay
 
 3. **Automation Tools**
+
    - WebdriverIO
    - SuperTest
    - Allure
@@ -226,6 +261,7 @@ Tests will be conducted at the headquarters of the software development company 
    - Grafana
 
 4. **Performance Testing Tools**
+
    - JMeter
 
 5. **Tools for Creating Screenshots and Videos**
@@ -233,6 +269,7 @@ Tests will be conducted at the headquarters of the software development company 
    - ShareX
 
 ## Incident Management
+
 After a defect is detected, it will be reported to the defect management system, which is Jira. Such a defect will have a priority specified in the test plan and a person responsible for fixing the issue.
 
 Once the programmer fixes the defect, it will then be assigned back to the tester for confirmation testing.
@@ -250,8 +287,3 @@ In case the defect is not fixed correctly, the report will be reassigned to the 
 - Tester - executes tasks assigned by the Test Manager, performs tests, and reports defects.
 
 - System Technical Administrator - prepares the test environment and supervises it during the testing process.
-
-
-
-
-
