@@ -2,17 +2,25 @@
 
 # Contents
 
-1️⃣ [About Me](#about-me-)
+1️⃣ [Introduction](#introduction-)
 
-1️⃣ [Courses](courses.md)
+2️⃣ [Tech Skills](#tech-skills)
 
-2️⃣ [SQL Learning](sql_learning.md)
+3️⃣ [Soft Skills](#soft-skills)
 
-3️⃣ [JavaScript](javascript.md)
+4️⃣ [Tools](#tools)
 
-4️⃣ [Test Plan](test_plan.md)
+5️⃣ [Languages](#languages)
 
-5️⃣ [Test Cases](test_cases.md)
+6️⃣ [My Links](#my-links)
+
+## 7️⃣ My Learnings:
+
+- [📘 Courses](courses.md)
+- [📊 SQL Learning](sql_learning.md)
+- [💻 JavaScript](javascript.md)
+- [📝 Test Plan](test_plan.md)
+- [✔️ Test Cases](test_cases.md)
 
 # About Me 🌟
 
