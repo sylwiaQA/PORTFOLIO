@@ -14,7 +14,7 @@
 
 6️⃣ [My Links](#my-links)
 
-## 7️⃣ My Learnings:
+### 7️⃣ My Learnings:
 
 - [📘 Courses](courses.md)
 - [📊 SQL Learning](sql_learning.md)
